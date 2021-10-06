@@ -3,4 +3,9 @@
 	"age":25,
       	"pets":null,
 	"salary":"1 billion dollars"
+	"film":"Forrest Gump",
+	"series":"Breaking Bad",
+	"food":"Watermelon",
+	"season":"Winter",
+	"place":"Madagascar"
 }
