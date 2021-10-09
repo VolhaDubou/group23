@@ -7,7 +7,7 @@ git commit -m "add file"
  7. Отправить файл на внешний GitHub репозиторий.
 git push 
  8. Создать файлы new2.json, new2.xml, new2.txt
-touch new2.json, new2.xml, new2.txt
+touch new2.json new2.xml new2.txt
  9. Добавить файлы под гит.
 git add new2.json, new2.xml, new2.txt 
  10. Закоммитить файлы.
@@ -19,9 +19,9 @@ vim new2.txt
  13. Отредактировать содержание файла “new2.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
 vim new2.json 
  14. Добавить и закоммитить “new2.txt” одной строчкой. 
-git commit -am "add lines" 
+git add new2.txt && git commit -m "add only file new2.txt"
  15. Добавить и закоммитить “new2.json” одной строчкой. 
-git commit -am "add lines" 
+git add new2.json && git commit -m "add only file new2.json" 
  16. Отправить изменения на внешний репозиторий.
 git push 
  17. Отредактировать содержание файла “new2.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
